@@ -3,7 +3,7 @@ using System.Linq;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Domain.Repositories;
 using Volo.Abp.Uow;
-using ZL.AbpNext.Poem.Core.Poems;
+using ZL.AbpNext.Poem.Domain.Poems;
 
 namespace ZL.AbpNext.Poem.ConsoleClient
 {

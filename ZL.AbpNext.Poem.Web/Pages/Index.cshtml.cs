@@ -15,12 +15,17 @@ namespace ZL.AbpNext.Poem.Web.Pages
 
         public IActionResult OnGet()
         {
-            return new JsonResult(new { Age = 18 });
+            return Page();
         }
+
+        //public IActionResult OnGet()
+        //{
+        //    return new JsonResult(new { Age = 18 });
+        //}
 
         public IActionResult Get()
         {
-            return new JsonResult(new { Age = 18 });
+            return new JsonResult(new { Age = 19 });
         }
 
         public IActionResult ToOther()
